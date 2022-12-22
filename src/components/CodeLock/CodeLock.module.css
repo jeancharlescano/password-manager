@@ -1,0 +1,41 @@
+.CodeLock {
+  height: 280px;
+  width: 180px;
+  background-color: rgb(187, 187, 187);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.ScreenContainer {
+  height: 25%;
+  width: 180px;
+  background-color: rgb(40, 40, 40);
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.Screen {
+  height: 100%;
+  width: 100%;
+}
+
+.Screen {
+  padding: 0;
+  border-width: 0;
+  text-align: center;
+  background-color: rgb(122, 255, 122);
+  font-size: xx-large;
+  -webkit-box-shadow: inset 1px 1px 14px 2px #000000;
+  box-shadow: inset 1px 1px 14px 2px #000000;
+}
+
+.Btn {
+  height: 180px;
+  width: 180px;
+  background-color: rgb(40, 40, 40);
+  border-radius: 5px;
+  padding: 5px;
+}

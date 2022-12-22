@@ -1,0 +1,32 @@
+.Container {
+  background-color: rgb(73, 73, 73);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.Title {
+  height: 10%;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.List {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: auto;
+}
+
+.Add {
+  position: absolute;
+  
+}

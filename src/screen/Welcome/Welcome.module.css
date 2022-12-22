@@ -1,0 +1,54 @@
+.App {
+  background-color: rgb(73, 73, 73);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  height: 458px;
+  width: 450px;
+  position: relative;
+}
+.LogoUnlock {
+  height: 458px;
+  width: 450px;
+  position: relative;
+}
+
+.Logo:hover {
+  height: 475px;
+  width: 467px;
+}
+
+.CodeLock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  height: 10.5%;
+}
+
+.Wheel {
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .RotateWheel {
+    animation: App-logo-spin 1.2s linear;
+    animation-delay: 0.6s;
+    width: 84px;
+    height: 84px;
+    margin-right: 83px;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}

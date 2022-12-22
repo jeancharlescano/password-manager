@@ -1,0 +1,44 @@
+.Element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 15%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    150deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 6, 87, 1) 70%
+  );
+  border-radius: 15px;
+  box-shadow: 10px 10px 24px -1px rgba(0, 0, 0, 0.75);
+}
+
+.Element:hover {
+  animation: 0.25s linear Focus-element;
+  animation-fill-mode: forwards;
+}
+
+@keyframes Focus-element {
+  from {
+    width: 40%;
+    height: 15%;
+  }
+  to {
+    width: 41%;
+    height: 16%;
+  }
+}
+
+.Title {
+  font-size: large;
+  font-weight: 500;
+  color: white;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
